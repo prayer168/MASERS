@@ -19,10 +19,14 @@ flowchart LR
 Python 3.11+；核心無第三方執行相依套件。
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\python -m pip install -e .
+Set-Location "C:\Users\NNKIEH\Documents\ChatGPT\系統開發"
+python -m pip install -e .
 python -m masers init
 ```
+
+安裝使用的 Python 必須與執行時相同。安裝後可從其他資料夾執行；預設 `.masers/` 位於目前資料夾，若要共用同一個專案狀態，請切換回專案資料夾或指定 `--root` 的絕對路徑。若出現 `No module named masers`，請先執行上述安裝命令。
+
+若使用虛擬環境，請用 `.\.venv\Scripts\python -m pip install -e .` 安裝，並用同一個 `.\.venv\Scripts\python -m masers` 執行。
 
 直接從 repository 執行 `python -m masers` 也可以，不需要安裝。設定範例見 `.env.example`；目前沒有自動載入 .env，也不會讀取或呼叫真實 API。
 
