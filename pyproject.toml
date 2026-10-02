@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "masers"
+version = "0.1.0"
+description = "State and artifact based multi-agent engineering pipeline"
+requires-python = ">=3.11"
+[project.scripts]
+masers = "masers.cli:main"
+[tool.setuptools.packages.find]
+include = ["masers*"]
