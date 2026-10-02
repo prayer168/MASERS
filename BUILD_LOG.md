@@ -20,3 +20,11 @@
 - 提供 PowerShell Start/Stop-Transcript 腳本，從此後的工作階段同步記錄指令和輸出；搭配 OBS 錄螢幕。
 - 歷史限制：先前沒有背景螢幕錄影或 PowerShell transcript；未錄到的步驟不補造逐字稿。
 - GitHub：本機未設定 remote；登入帳戶清單與同名搜尋均未找到 MASERS repo，push 待 repo URL/目的地確認。
+
+## 2026-10-02 — PowerShell 錄製命令修正與公開發布準備
+
+- 新增使用者提供的 PowerShell execution policy 錯誤截圖至影片證據包。
+- 問題：本機原則拒絕載入未簽署的 `Start-MASERS-Capture.ps1`（PSSecurityException / UnauthorizedAccess）。
+- 修正：改以互動式 PowerShell `Start-Transcript`/`Stop-Transcript` 命令錄製，不要求降低執行原則或載入腳本。
+- README 加入 SEO 摘要、自然關鍵字、AEO FAQ、安裝問答；同步設定 GitHub Description 與八個 Topics。
+- 依使用者指示，將 GitHub repository 由 private 改為 public，並確認 GitHub 回報 `PUBLIC`。

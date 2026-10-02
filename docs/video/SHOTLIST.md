@@ -13,7 +13,8 @@
 | 7 驗證 | 即時重跑 unittest，展示摘要；CLI status/logs | 必須從錄影現場即時取得輸出，不要做成歷史逐字稿 | 11 項既有測試曾通過；畫面中的本次測試要以新的執行為準 |
 | 8 誠實界線 | `mode: mock`, `review_status: simulated`, `test_status: simulated` 放大 | State JSON | Mock 證明 orchestration 協定可走通，不代表 Todo 已寫好或真實測試成功 |
 | 9 Git 與去向 | 展示 `git log`, `git status`, GitHub repository 查詢結果 | Git evidence；重新拍 GitHub 最新查詢 | 三個本地 checkpoints；遠端 MASERS repo 尚未確認 |
-| 10 收尾 | Phase 2 roadmap 和素材清冊 | README、manifest | 下一步是 Provider adapters；影片素材有來源、雜湊與版本紀錄 |
+| 10 收錄拍攝錯誤 | 展示 execution policy error，再切換至互動式 Start-Transcript 命令 | screenshot 03；RECORDING_GUIDE | 尊重 PowerShell policy，改在互動式 shell 開啟 transcript |
+| 11 收尾 | Phase 2 roadmap、公開 repo metadata 與素材清冊 | README、GitHub About/topics、manifest | Provider adapters 仍在 roadmap；影片素材有來源、雜湊與版本紀錄 |
 
 ## 避免誤導的剪輯規則
 

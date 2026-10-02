@@ -2,6 +2,49 @@
 
 Multi-AI Software Engineering & Review System。AI 不共享聊天，而是共享狀態、交接、決策與版本化成果。
 
+> **MASERS** is a Python framework for multi-agent software engineering. It coordinates AI agents through structured tasks, shared project state, artifact handoffs, Git history, reviews, and tests. The current release is an offline Mock pipeline; live model providers are planned.
+
+**Keywords:** MASERS, multi-agent AI system, AI agent orchestration, multi-agent software engineering, LLM provider adapters, structured agent handoff, AI code review, Python orchestration.
+
+## SEO / AEO 專案摘要
+
+- **Title:** MASERS — Multi-AI Software Engineering & Review System
+- **Description:** Python framework for coordinating AI software engineering agents with shared state, structured handoffs, review, testing, and Git traceability.
+- **Canonical project URL:** https://github.com/prayer168/MASERS
+- **GitHub topics:** `multi-agent-systems`, `ai-agents`, `agent-orchestration`, `python`, `software-engineering`, `llm`, `ai-code-review`, `workflow-automation`
+
+### MASERS 是什麼？
+
+MASERS 是以 Python 建置的多 AI Agent 軟體工程協作系統，透過結構化任務、共享專案狀態、交接紀錄與 Git 變更，讓不同角色有跡可循地協作。
+
+### 目前版本會呼叫 OpenAI、Claude 或 Gemini 嗎？
+
+不會。Phase 1 使用離線 Mock Provider 驗證任務和協作流程；OpenAI、Anthropic 與 Google 的真實 Provider Adapter 規劃於 Phase 2。
+
+### Mock 任務顯示 completed，代表 Todo 程式已完成並通過測試嗎？
+
+不代表。這只表示模擬流程完成；Review 和 Test 狀態仍為 `simulated`，Demo 不會生成或驗證 Todo 軟體。
+
+### 如何安裝並執行 MASERS？
+
+使用 Python 3.11 以上版本，執行 `python -m pip install -e .` 安裝，再執行 `python -m masers run "Build a Todo CLI"`。完整步驟見下方安裝與 CLI 說明。
+
+### What is MASERS?
+
+MASERS is a Python framework that coordinates specialized AI agents through structured tasks and versioned artifacts instead of shared chat transcripts. Phase 1 provides an offline Mock pipeline and CLI. It does not yet call live AI providers or create application code.
+
+### Does the current MASERS release call OpenAI, Anthropic, or Google models?
+
+No. The current release uses a deterministic Mock Provider so the task, state, handoff, and orchestration flow can be exercised without API keys. Live provider adapters are planned for Phase 2.
+
+### Does a completed Mock task mean its software passed review and tests?
+
+No. `completed` means the simulated pipeline finished. Review and test fields remain `simulated`; no Todo application is generated or verified by this demo.
+
+### How do I install and run MASERS?
+
+Use Python 3.11 or newer, install the repository with `python -m pip install -e .`, then run `python -m masers run "Build a Todo CLI"`. See the installation and CLI sections below.
+
 ## 目前版本
 
 Phase 1：可執行的單機 Mock pipeline。此版本驗證協作協定，不會建立 Todo 程式，也不會將模擬 Review 或 Test 當成真正通過驗收。`completed` 表示模擬流程完成。

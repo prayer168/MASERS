@@ -178,6 +178,12 @@
       "origin": "使用者提供截圖；原檔複製，未修改"
     },
     {
+      "path": "evidence/screenshots/03-powershell-script-policy-block.png",
+      "bytes": 86265,
+      "sha256": "23f6f5dcfc5b768c547598435aba51f2f30d38d3aeb05e020b03bcc8888985f3",
+      "origin": "使用者提供截圖；原檔複製，未修改"
+    },
+    {
       "path": "evidence/SESSION_EVIDENCE.md",
       "bytes": 855,
       "sha256": "3a808f000cf89e7eedc93e0c7823a13d55e345127816a7a1cd012ad4c876b58a",

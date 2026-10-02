@@ -11,7 +11,9 @@
 | 5 | 順序承接畫面 03 | 在專案路徑下執行 Todo prompt，六階段 Mock 流程完成；test/review 標記 simulated | 使用者截圖 `02-mock-pipeline-complete.png`；Task/State/Handoff/JSONL | 成功的是 pipeline 模擬；沒有建立 Todo CLI 軟體 |
 | 6 | 11:57 commit `cc44793` | 增加建置日誌 | Git commit | 開始以文件保存建置軌跡 |
 | 7 | 目前歸檔 | 複製兩張使用者截圖、3 次 Demo 的 Task/State、18 份 Handoff、JSONL events，產生 SHA-256 清冊 | `evidence/`、`ASSET_MANIFEST.json` | 證據來源和完整性如何管理 |
-| 8 | 待拍 | 搜尋到的 GitHub 帳戶沒有名為 MASERS 的 repository；本機尚未設定 remote | GitHub repo 查詢文字紀錄見本次 chat；待重新確認 | 上傳尚未完成，需由使用者提供 repo URL 或建立目的地 |
+| 8 | 本次處理 | 使用者要求公開 repo，確認後從 private 轉為 public；更新 GitHub Description/Topics | GitHub repo metadata | 程式碼及歷史 commits 現在可供所有人瀏覽 |
+| 9 | 本次處理 | 使用者提供執行原則錯誤畫面；移除需載入的錄製腳本，改為直接輸入 transcript 命令 | `evidence/screenshots/03-powershell-script-policy-block.png` | 尊重本機執行原則，以互動式 cmdlet 錄製 |
+| 10 | 本次處理 | README 新增 SEO 摘要、關鍵字及 AEO 常見問答 | README / GitHub description and topics | GitHub 儲存庫欄位與 README 正文共同改善可搜尋和可回答性 |
 
 ## 數量核對
 

@@ -24,6 +24,10 @@ Phase 1 建立結構化 Task、持久化 State、Handoff 格式、Agent 和 Prov
 
 建置紀錄由四類材料組成：Git commit 保留版本，BUILD_LOG 和時間線說明每次里程碑，MASERS 的 JSON/JSONL 保存任務、狀態、交接與事件，截圖保留使用者提供的終端畫面。素材清冊逐檔計算 SHA-256。過去沒有同步錄下的畫面或聲音會明確標成歷史資料；現在開始則可在 PowerShell 開 transcript 並用螢幕錄影軟體同步拍攝。
 
+## 錄製工具錯誤
+
+下一張歷史截圖顯示 PowerShell 阻擋載入未簽署的錄製腳本。這是電腦的執行原則，不是 MASERS 執行錯誤。我移除對 `.ps1` 啟動器的依賴，改成在互動式 PowerShell 逐行執行 `Start-Transcript`；完成後在相同視窗執行 `Stop-Transcript`。沒有要求降低安全原則。
+
 ## 收尾
 
 目前已完成可測試的離線核心。Provider adapters、真正的模型執行、程式修改工具和真實測試仍在 roadmap。GitHub 帳戶尚未找到名為 MASERS 的 repository，所以本地提交已版本化，但遠端 push 還沒有發生。
