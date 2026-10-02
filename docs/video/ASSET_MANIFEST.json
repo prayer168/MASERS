@@ -1,0 +1,187 @@
+{
+  "created_local_date": "2026-10-02",
+  "timezone": "Asia/Taipei",
+  "manifest_hash_excludes_self": true,
+  "assets": [
+    {
+      "path": "evidence/git-history.txt",
+      "bytes": 235,
+      "sha256": "71f7e952eff0376e1d0b038163123dfbd062b324e6eb658bd7b40107e4dbfe03",
+      "origin": "封存當下由本機 Git 命令直接擷取"
+    },
+    {
+      "path": "evidence/git-status-at-archive.txt",
+      "bytes": 21,
+      "sha256": "831edfc51d1b3088e5f543cffaf423dd3a3440effa5958d2e1a79ef1dcadf8f2",
+      "origin": "封存當下由本機 Git 命令直接擷取"
+    },
+    {
+      "path": "evidence/runs/events.jsonl",
+      "bytes": 5037,
+      "sha256": "48407b1efa12f09bc0e4147c291ff673b281ea01ddf3d0863ec5b6b377cd6e94",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-0.json",
+      "bytes": 499,
+      "sha256": "26f784c6726759b74148d7409632e0a1442a725078a88ba263b42a97b7f611f3",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-1.json",
+      "bytes": 500,
+      "sha256": "1d7af68598b25896d442e68e7c284d4226a869aa45ea961c544779f21e254fbd",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-2.json",
+      "bytes": 502,
+      "sha256": "76221e7ca062cdf0ea735705f8540fea714fd55d504ff5a884ccc6c8c921faaa",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-3.json",
+      "bytes": 498,
+      "sha256": "beb76c5aaf88d204b8d8ace6d72b4e95ce9bade7c1eebd9711939a0406619586",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-4.json",
+      "bytes": 499,
+      "sha256": "5464c8e5626152cd174d3b95e52405aff57f1ae3d2fceb12bfc50ee5b0f43227",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-0ce0726f6e99-5.json",
+      "bytes": 503,
+      "sha256": "52e13fe0e74d88ae2ad9a4122dab5fe6abc22f68236353379b7961d2357a850f",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-0.json",
+      "bytes": 499,
+      "sha256": "226cb98cbd1a61f3a7383713349eedc5c79fa820a9544bc2629733f3324a461d",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-1.json",
+      "bytes": 500,
+      "sha256": "64b4344494b13faaf0d494ab157ac18183a24e3a93d0cac63f0d01c01f535225",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-2.json",
+      "bytes": 502,
+      "sha256": "c0f5f2abd7d6f5cb24c34f67515a8fc24716467ebe95b75ceb199a16d84e9490",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-3.json",
+      "bytes": 498,
+      "sha256": "e5e2c706961a1c7dda3643019283cbd2d24e1f8954e6051c93e1d943e41b5721",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-4.json",
+      "bytes": 499,
+      "sha256": "e4a9f9f9a4f94bf465e0c7e9cbcdc4bd534ff5a551e6d8b7fa8ad62157283b00",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-5036f3a2b0e0-5.json",
+      "bytes": 503,
+      "sha256": "76bba13fd692834fc64c9a026b68a53d7a2ff09cf9cdbbdb450d7fb4ffaa055d",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-0.json",
+      "bytes": 499,
+      "sha256": "3ca97047360899dc4fc0c10d112310f2c2187bff75390f51d3cb7133d6639f10",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-1.json",
+      "bytes": 500,
+      "sha256": "fe1a7777da32e11558476b09611c500e4bc4bc2fbbfd4a5384ae912db637fbe0",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-2.json",
+      "bytes": 502,
+      "sha256": "3cb7775bf1f4586d6e2d5e65ab15bc0e4c8c1f44b3d2f7ec7daee57948eede29",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-3.json",
+      "bytes": 498,
+      "sha256": "c45babfefee1189c81647992d279632fdfbcc16ab2019c7859803e9d5660922c",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-4.json",
+      "bytes": 499,
+      "sha256": "1007976096c1999096d7392de14be62630496aa5690715f6e9534741bf591066",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/handoffs/TASK-9aa0e0133c7e-5.json",
+      "bytes": 503,
+      "sha256": "66220e66c5b6c8f094d0e546ad489a18229db4f952ce7b5d816c0a67a3b298a9",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/state/TASK-0ce0726f6e99.json",
+      "bytes": 485,
+      "sha256": "84adb72779645665d4d1d39ac936843f742d9518d69ffdf4e70e640d0dbed8a4",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/state/TASK-5036f3a2b0e0.json",
+      "bytes": 485,
+      "sha256": "a48040409b1c5694f09c11a130377d90be8164c1a18bcb657c1bf791c9090dee",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/state/TASK-9aa0e0133c7e.json",
+      "bytes": 485,
+      "sha256": "8d44cf4c9bfbdb99899e6720f0b2b8250e61e8b1dbba6c271e0a0fe8605ce111",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/tasks/TASK-0ce0726f6e99.json",
+      "bytes": 560,
+      "sha256": "84be47c428161d799fa02eb12b95ff918e01e57d475985c8f017d3e5b57d63ec",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/tasks/TASK-5036f3a2b0e0.json",
+      "bytes": 560,
+      "sha256": "61d23ae823aca553c956bf5fd64cc7662d3d81baa2d311f3e85f7d2ec37a5a7c",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/runs/tasks/TASK-9aa0e0133c7e.json",
+      "bytes": 560,
+      "sha256": "4f545129ba423746a804a04c4621ab166cbc267675aed397259119b769ef3c95",
+      "origin": "MASERS 本機執行 artifact；原檔複製"
+    },
+    {
+      "path": "evidence/screenshots/01-package-not-installed.png",
+      "bytes": 29296,
+      "sha256": "e234bdbdd9a5e5c5c47ecbd651d810e6a7686779af6f8107757a1887f16eabb4",
+      "origin": "使用者提供截圖；原檔複製，未修改"
+    },
+    {
+      "path": "evidence/screenshots/02-mock-pipeline-complete.png",
+      "bytes": 61901,
+      "sha256": "628b78d5dbc99576d65ee7978b66cbc2643fd94515ad762520125b6fa45f2f7a",
+      "origin": "使用者提供截圖；原檔複製，未修改"
+    },
+    {
+      "path": "evidence/SESSION_EVIDENCE.md",
+      "bytes": 855,
+      "sha256": "3a808f000cf89e7eedc93e0c7823a13d55e345127816a7a1cd012ad4c876b58a",
+      "origin": "事後整理的來源說明"
+    }
+  ]
+}

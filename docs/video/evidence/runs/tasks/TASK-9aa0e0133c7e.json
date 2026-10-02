@@ -1,0 +1,20 @@
+{
+  "title": "建立一個簡單的 Todo CLI App。",
+  "description": "建立一個簡單的 Todo CLI App。",
+  "requirements": [
+    "建立一個簡單的 Todo CLI App。"
+  ],
+  "acceptance_criteria": [
+    "Mock pipeline completes and saves structured handoffs"
+  ],
+  "task_id": "TASK-9aa0e0133c7e",
+  "dependencies": [],
+  "assigned_role": "planner",
+  "input_artifacts": [],
+  "expected_output": "structured handoffs",
+  "status": "completed",
+  "priority": 1,
+  "budget": 20000,
+  "review_required": true,
+  "test_required": true
+}
