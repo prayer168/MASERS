@@ -28,3 +28,5 @@
 - 修正：改以互動式 PowerShell `Start-Transcript`/`Stop-Transcript` 命令錄製，不要求降低執行原則或載入腳本。
 - README 加入 SEO 摘要、自然關鍵字、AEO FAQ、安裝問答；同步設定 GitHub Description 與八個 Topics。
 - 依使用者指示，將 GitHub repository 由 private 改為 public，並確認 GitHub 回報 `PUBLIC`。
+
+- 新增 SVG 架構流程圖並嵌入 README；使用者 PowerShell transcript 尚在作用中的紀錄檔已加入 Git ignore，避免把帳戶/電腦名稱公開。

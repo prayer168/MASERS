@@ -13,3 +13,11 @@
 - `後續錄製`：使用 RECORDING_GUIDE 的 PowerShell transcript 和 OBS 螢幕錄影。
 
 首次建立素材包時並未持續錄製桌面或麥克風，因此無法還原未錄到的逐字操作或聲音。之後每次開始建置工作，先啟動 transcript 和螢幕錄影，再操作系統。
+
+
+原始 PowerShell transcript 和錄影可能包含私人路徑、帳戶、裝置名稱或憑證；這些檔案預設只保存在本機，需遮蔽個資後才加入公開素材包。
+
+
+## 系統流程圖
+
+![MASERS 操作流程圖](masers-workflow.svg)

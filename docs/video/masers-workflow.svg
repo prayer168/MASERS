@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img" aria-labelledby="title desc">
+<title id="title">MASERS 操作流程圖</title><desc id="desc">使用者需求經 Orchestrator 建立結構化任務，依序交由 Planner、Researcher、Builder、Reviewer、Builder Revision、Tester 與 Integrator。各階段產生 handoff 並保存至共享狀態和 JSON 檔案。Phase 1 使用 Mock Provider。</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f4f8ff"/><stop offset="1" stop-color="#edf3f9"/></linearGradient>
+ <linearGradient id="navy" x2="1" y2="1"><stop stop-color="#172554"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#12315a" flood-opacity=".11"/></filter>
+ <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6L1 11Z" fill="#55718e"/></marker>
+ <marker id="arrowLite" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6L1 11Z" fill="#849bb3"/></marker>
+ <style>
+  text{font-family:"Microsoft JhengHei","Noto Sans TC","PingFang TC",sans-serif;fill:#162b46}
+  .title{font-size:48px;font-weight:800;letter-spacing:.5px}.sub{font-size:20px;fill:#536b85}
+  .card{fill:#fff;stroke:#d5e1ee;stroke-width:2;rx:20;filter:url(#shadow)}
+  .h{font-size:21px;font-weight:750}.small{font-size:16px;fill:#637991}.step{font-size:13px;font-weight:700;fill:#8ba0b6;letter-spacing:1.5px}
+  .connector{fill:none;stroke:#55718e;stroke-width:4;marker-end:url(#arrow)}
+  .dash{fill:none;stroke:#849bb3;stroke-width:3;stroke-dasharray:9 8;marker-end:url(#arrowLite)}
+  .panel{fill:#fff;stroke:#d5e1ee;stroke-width:2;rx:24}
+ </style>
+</defs>
+<rect width="1600" height="1080" fill="url(#bg)"/>
+<circle cx="1480" cy="95" r="120" fill="#dbeafe" opacity=".55"/><circle cx="1430" cy="80" r="64" fill="#bfdbfe" opacity=".48"/>
+<text x="80" y="92" class="title">MASERS 操作流程</text>
+<text x="82" y="130" class="sub">Multi-AI Software Engineering &amp; Review System｜AI agents share work state and artifacts</text>
+<rect x="1200" y="42" width="305" height="50" rx="25" fill="#dcfce7" stroke="#86efac"/><circle cx="1228" cy="67" r="7" fill="#16a34a"/><text x="1247" y="74" font-size="17" font-weight="750" fill="#166534">Phase 1 · Mock pipeline 可執行</text>
+
+<!-- top row -->
+<text x="82" y="184" class="step">01 — PLAN</text>
+<g><rect class="card" x="80" y="205" width="248" height="132"/><circle cx="116" cy="247" r="19" fill="#dcfce7"/><path d="M107 247h18m-9-9v18" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><text x="146" y="246" class="h">使用者需求</text><text x="105" y="287" class="small">自然語言輸入</text><text x="105" y="313" class="small">例如：建立 Todo CLI</text></g>
+<path class="connector" d="M330 271H375"/>
+<g><rect class="card" x="390" y="205" width="248" height="132"/><circle cx="426" cy="247" r="19" fill="#dbeafe"/><path d="M417 240h18M417 247h18M417 254h12" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round"/><text x="456" y="246" class="h">Orchestrator</text><text x="415" y="287" class="small">路由、重試、狀態管理</text><text x="415" y="313" class="small">建立結構化 Task</text></g>
+<path class="connector" d="M640 271H685"/>
+<g><rect class="card" x="700" y="205" width="248" height="132"/><circle cx="736" cy="247" r="19" fill="#ede9fe"/><path d="M728 238h16v18h-16zM731 243h10m-10 5h10" fill="none" stroke="#6d28d9" stroke-width="2.5"/><text x="766" y="246" class="h">Planner</text><text x="725" y="287" class="small">需求、架構、驗收條件</text><text x="725" y="313" class="small">輸出 plan handoff</text></g>
+<path class="connector" d="M950 271H995"/>
+<g><rect class="card" x="1010" y="205" width="248" height="132" stroke-dasharray="7 6"/><circle cx="1046" cy="247" r="19" fill="#e0f2fe"/><path d="M1038 254l8-15 8 15zm8-15v15" fill="none" stroke="#0369a1" stroke-width="2.5"/><text x="1076" y="246" class="h">Researcher</text><text x="1035" y="287" class="small">查證 API / 技術資料</text><text x="1035" y="313" class="small">視任務需要加入</text></g>
+<path class="dash" d="M1260 271H1305"/>
+<g><rect class="card" x="1320" y="205" width="208" height="132"/><circle cx="1356" cy="247" r="19" fill="#fef3c7"/><path d="M1349 254l14-14m-12 1 11 11" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><text x="1386" y="246" class="h">Builder</text><text x="1345" y="287" class="small">實作或修正</text><text x="1345" y="313" class="small">產生程式交接</text></g>
+
+<!-- turn down and reverse row -->
+<path class="connector" d="M1424 340V390"/>
+<text x="1130" y="418" class="step">02 — REVIEW, TEST &amp; INTEGRATE</text>
+<g><rect class="card" x="1320" y="440" width="208" height="132"/><circle cx="1356" cy="482" r="19" fill="#ffedd5"/><path d="M1347 483l6 6 12-14" fill="none" stroke="#c2410c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="1386" y="481" class="h">Reviewer</text><text x="1345" y="522" class="small">找缺陷與風險</text><text x="1345" y="548" class="small">輸出 review handoff</text></g>
+<path class="connector" d="M1318 507H1275"/>
+<g><rect class="card" x="1010" y="440" width="248" height="132"/><circle cx="1046" cy="482" r="19" fill="#fef3c7"/><path d="M1038 489l14-14m-12 1 11 11" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><text x="1076" y="481" class="h">Builder Revision</text><text x="1035" y="522" class="small">依 review 修正</text><text x="1035" y="548" class="small">保留版本化交接</text></g>
+<path class="connector" d="M1008 507H965"/>
+<g><rect class="card" x="700" y="440" width="248" height="132"/><circle cx="736" cy="482" r="19" fill="#f3e8ff"/><path d="M727 482h18m-9-9 9 9-9 9" fill="none" stroke="#7e22ce" stroke-width="2.5"/><text x="766" y="481" class="h">Tester</text><text x="725" y="522" class="small">驗證測試結果</text><text x="725" y="548" class="small">保存結構化紀錄</text></g>
+<path class="connector" d="M698 507H655"/>
+<g><rect class="card" x="390" y="440" width="248" height="132"/><circle cx="426" cy="482" r="19" fill="#dbeafe"/><path d="M418 482l6 6 11-13" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round"/><text x="456" y="481" class="h">Integrator</text><text x="415" y="522" class="small">綜合需求、Review、Test</text><text x="415" y="548" class="small">作出整合決策</text></g>
+<path class="connector" d="M388 507H345"/>
+<g><rect x="80" y="440" width="248" height="132" rx="20" fill="url(#navy)" filter="url(#shadow)"/><circle cx="116" cy="482" r="19" fill="#93c5fd"/><path d="M108 482h16m-6-7 7 7-7 7" stroke="#172554" stroke-width="2.7" fill="none" stroke-linecap="round"/><text x="146" y="481" font-size="21" font-weight="750" fill="#fff">結果交付</text><text x="105" y="522" font-size="16" fill="#dbeafe">狀態、交接、測試摘要</text><text x="105" y="548" font-size="16" fill="#dbeafe">CLI JSON 輸出</text></g>
+
+<!-- shared state -->
+<rect class="panel" x="80" y="635" width="1448" height="194"/>
+<text x="112" y="679" font-size="22" font-weight="800">共享專案狀態與可追蹤成果</text>
+<text x="112" y="710" class="small">Agent 之間傳遞 artifacts 與結構化 handoff，不複製完整聊天記錄</text>
+<g><rect x="112" y="744" width="286" height="57" rx="14" fill="#eff6ff" stroke="#bfdbfe"/><text x="132" y="780" font-size="18" font-weight="700">Task JSON · requirements</text></g>
+<g><rect x="422" y="744" width="286" height="57" rx="14" fill="#eff6ff" stroke="#bfdbfe"/><text x="442" y="780" font-size="18" font-weight="700">STATE.json · phase / status</text></g>
+<g><rect x="732" y="744" width="286" height="57" rx="14" fill="#eff6ff" stroke="#bfdbfe"/><text x="752" y="780" font-size="18" font-weight="700">handoffs/ · agent outputs</text></g>
+<g><rect x="1042" y="744" width="442" height="57" rx="14" fill="#eff6ff" stroke="#bfdbfe"/><text x="1062" y="780" font-size="18" font-weight="700">Git diff · reviews · tests · structured logs</text></g>
+<path class="dash" d="M512 574V616"/><path class="dash" d="M824 574V616"/><path class="dash" d="M1135 574V616"/>
+
+<!-- provider and honesty banner -->
+<rect x="80" y="868" width="700" height="118" rx="22" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+<circle cx="119" cy="911" r="17" fill="#0284c7"/><path d="M111 911h16m-8-8v16" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><text x="151" y="908" font-size="20" font-weight="800">Provider Interface</text><text x="112" y="947" font-size="17" fill="#385872">Phase 1：MockProvider（離線）　·　Phase 2：OpenAI / Anthropic / Google adapters 規劃中</text>
+<rect x="808" y="868" width="720" height="118" rx="22" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+<circle cx="848" cy="911" r="17" fill="#ea580c"/><text x="842" y="918" font-size="21" font-weight="800" fill="#fff">!</text><text x="880" y="908" font-size="20" font-weight="800">目前版本的驗收界線</text><text x="840" y="947" font-size="17" fill="#75421e">completed = Mock 流程結束；review_status / test_status = simulated。</text>
+<text x="80" y="1036" font-size="15" fill="#71869c">MASERS · Phase 1 操作流程示意｜小任務可按 Task 設定略過 Review 或 Test｜此圖描述現有 Mock pipeline</text>
+</svg>

@@ -4,6 +4,12 @@
   "manifest_hash_excludes_self": true,
   "assets": [
     {
+      "path": "evidence/SESSION_EVIDENCE.md",
+      "bytes": 855,
+      "sha256": "3a808f000cf89e7eedc93e0c7823a13d55e345127816a7a1cd012ad4c876b58a",
+      "origin": "事後整理的來源說明"
+    },
+    {
       "path": "evidence/git-history.txt",
       "bytes": 235,
       "sha256": "71f7e952eff0376e1d0b038163123dfbd062b324e6eb658bd7b40107e4dbfe03",
@@ -184,10 +190,10 @@
       "origin": "使用者提供截圖；原檔複製，未修改"
     },
     {
-      "path": "evidence/SESSION_EVIDENCE.md",
-      "bytes": 855,
-      "sha256": "3a808f000cf89e7eedc93e0c7823a13d55e345127816a7a1cd012ad4c876b58a",
-      "origin": "事後整理的來源說明"
+      "path": "masers-workflow.svg",
+      "bytes": 9507,
+      "sha256": "9ff2d4725ffe7728343d2957ba145594ce7e97b3bd1cf72a7022b9f71956af21",
+      "origin": "Codex authored vector workflow diagram"
     }
   ]
 }

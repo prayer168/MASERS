@@ -49,13 +49,9 @@ Use Python 3.11 or newer, install the repository with `python -m pip install -e 
 
 Phase 1：可執行的單機 Mock pipeline。此版本驗證協作協定，不會建立 Todo 程式，也不會將模擬 Review 或 Test 當成真正通過驗收。`completed` 表示模擬流程完成。
 
-```mermaid
-flowchart LR
-  User --> CLI --> Orchestrator
-  Orchestrator --> Planner --> Builder --> Reviewer --> Revision --> Tester --> Integrator
-  Orchestrator <--> State
-  Integrator --> Handoffs
-```
+![MASERS 操作流程圖](docs/video/masers-workflow.svg)
+
+[檢視可下載的 SVG 原圖](docs/video/masers-workflow.svg)
 
 ## 安裝與環境
 

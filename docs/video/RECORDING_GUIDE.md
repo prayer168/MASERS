@@ -33,4 +33,4 @@
 
 ## Transcript 包含範圍
 
-PowerShell transcript 會保存該視窗的命令與輸出，包含路徑、錯誤文字和任何使用者打出的內容。開始前清除不想入鏡的私人資料；不要在畫面或命令列顯示 API keys、token、`.env` 或 credential。錄影及 transcript 必須同一階段開始，才有同步可核對的旁白和文字。
+PowerShell transcript 會保存該視窗的命令與輸出，包含路徑、錯誤文字和任何使用者打出的內容，開頭也會記錄 Windows 帳戶及電腦名稱。原始 `.txt` 已由根目錄 `.gitignore` 排除，僅保存在本機；公開前應複製一份，遮蔽帳戶名稱、裝置名稱、私人路徑及憑證，再把已審核版本加入素材清冊。開始前清除不想入鏡的私人資料；不要在畫面或命令列顯示 API keys、token、`.env` 或 credential。錄影及 transcript 必須同一階段開始，才有同步可核對的旁白和文字。
